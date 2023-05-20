@@ -7,5 +7,5 @@ async function Data() {
     audio.pause();
   }
 document.getElementById("strtbtn").addEventListener("click",function(){
-     setInterval(Data, 500);
+     setInterval(Data, 5000);
 });
